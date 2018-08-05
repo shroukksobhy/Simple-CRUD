@@ -42,7 +42,7 @@ require 'config.php' ;
    		   echo"<td><a href='index.php?action=delete&id={$row['id']}' class='btn btn-danger'>Delete</a></td>";
    		   echo "<td><a href='edit.php?action=edit&id={$row['id']}' class='btn btn-primary'>Edit</a></td>";
 
-   		   echo"<td><a href='read.php?action=read&id={$row['id']}'class='btn btn-primary'>Read</a></td>";
+   		   echo"<td><a href='read.php?action=read&id={$row['id']}'class='btn btn-info'>Read</a></td>";
 
    		     echo"</tr>";
 
